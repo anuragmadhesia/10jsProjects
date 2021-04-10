@@ -1,1 +1,1 @@
-<a href="https://anuragmadhesia.github.io/10jsProjects/"># 10jsProjects</a>
+<a href="https://anuragmadhesia.github.io/10jsProjects/" target="_blank"># 10jsProjects</a>
