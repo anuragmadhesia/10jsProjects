@@ -9,11 +9,10 @@ function createNotification() {
     const notif = document.createElement("div");
     notif.classList.add("toast");
 
-    notif.innerText = "This challenge is crazy!";
+    notif.innerHTML = `This challenge is crazy! <button style="outline:none;" id="remove">&times;</button>`;
 
     container.appendChild(notif);
-
-    setTimeout(() => {
+    document.getElementById("remove").addEventListener("click", function() {
         notif.remove();
-    }, 3000);
+    });
 }
